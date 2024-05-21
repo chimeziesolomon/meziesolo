@@ -47,5 +47,3 @@ function getBaseURLFromScript() {
   baseParts.pop(); // Remove the script filename
   return baseParts.join("/");
 }
-const baseURLFromScript = getBaseURLFromScript();
-console.log("Base URL from script:", baseURLFromScript);
